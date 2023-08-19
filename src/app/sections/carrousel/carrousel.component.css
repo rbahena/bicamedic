@@ -1,0 +1,35 @@
+.carousel-inner {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.title-bicamedic {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.subtitle-bicamedic {
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    color: #ffff;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.show-calatog-bicamedic {
+    position: absolute;
+    top: 360px;
+    left: 80px;
+}
+
+.bicamedic-blue-button {
+    background-color: #0d328f;
+    color: #ffffff;
+    /* font-weight: bold; */
+}
