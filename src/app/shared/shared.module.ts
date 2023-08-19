@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NabvarComponent } from './nabvar/nabvar.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
 @NgModule({
   declarations: [
-    NabvarComponent,
+    NavbarComponent,
     FooterComponent
   ],
   imports: [
