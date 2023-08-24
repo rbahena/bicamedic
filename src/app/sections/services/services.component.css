@@ -1,0 +1,38 @@
+.our-services {
+    margin-top: -6.8px;
+}
+
+.col-ventas
+{
+    background-color: #83c4ff;
+}
+
+.col-renta
+{
+    background-color: #50a8f8;
+}
+
+.col-mtto
+{
+    background-color: #83c4ff;
+}
+
+.icon-font {
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.filas {
+    color: white;
+}
+p {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+h4{
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
