@@ -4,32 +4,135 @@
     text-align: left;
 }
 
+.bicamedic-blue-button {
+    background-color: #0d328f;
+    color: #ffffff;
+}
+
+
 .title-bicamedic {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 80px;
     color: #ffff;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
+    line-height: 2.8rem;
 }
 
 .subtitle-bicamedic {
     position: absolute;
-    top: 160px;
+    top: 200px;
     left: 80px;
-    color: #ffff;
+    color: #ffff; 
     font-size: 1.4rem;
     font-weight: 500;
 }
 
 .show-calatog-bicamedic {
     position: absolute;
-    top: 360px;
+    top: 380px;
     left: 80px;
 }
 
-.bicamedic-blue-button {
-    background-color: #0d328f;
-    color: #ffffff;
-    /* font-weight: bold; */
+
+@media (max-width: 950px) {
+    .title-bicamedic {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        color: #ffff;
+        font-size: 1.7rem;
+        font-weight: 500;
+        line-height: 2.1rem;
+    }
+    
+    .subtitle-bicamedic {
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        color: #ffff; 
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    .show-calatog-bicamedic {
+        position: absolute;
+        top: 260px;
+        left: 50px;
+    }
+
+    .bicamedic-blue-button {
+        max-width: 140px;
+       max-height:  90px;
+       font-size: .9rem;
+    }
+    
+}
+
+@media (max-width: 693px) {
+    .title-bicamedic {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        color: #ffff;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+    
+    .subtitle-bicamedic {
+        position: absolute;
+        top: 120px;
+        left: 50px;
+        color: #ffff; 
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .show-calatog-bicamedic {
+        position: absolute;
+        top: 200px;
+        left: 50px;
+    }
+
+    .bicamedic-blue-button {
+        max-width: 120px;
+       max-height:  80px;
+       font-size: .8rem;
+    }
+    
+}
+
+@media (max-width: 510px) {
+    .title-bicamedic {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        color: #ffff;
+        font-size: .9rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
+    
+    .subtitle-bicamedic {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        color: #ffff; 
+        font-size: .6rem;
+        font-weight: 500;
+    }
+    
+    .show-calatog-bicamedic {
+        position: absolute;
+        top: 120px;
+        left: 50px;
+    }
+
+    .bicamedic-blue-button {
+        max-width: 90px;
+       max-height:  30px;
+       font-size: .6rem;
+    }
 }
