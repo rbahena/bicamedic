@@ -1,0 +1,21 @@
+.about-text{
+    margin: 110px;
+    text-align: justify;
+}
+
+.about-img{
+    margin: 70px;
+}
+
+@media (max-width: 510px) {
+
+    .about-text{
+       font-size: small;
+        text-align: justify;
+        margin-top: 10px;
+    }
+    
+    .about-img{
+        margin-bottom: 10px;
+    }
+}
